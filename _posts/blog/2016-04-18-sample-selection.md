@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The Sample Selection Model"
-modified:
 categories: blog
 excerpt: "Sample selction is also called as incidental truncation. Simply say, it means the sample was not randomly selected from the total population. Some specific sample are neglect when research is collecting samples." 
 tags: [statistics]
