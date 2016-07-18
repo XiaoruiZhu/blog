@@ -6,6 +6,7 @@ categories: blog
 tags: [哲学]
 comments: true
 share: true
+date: 2016-05-22 Fri 22:08
 ---
 
 大自然的简约与直接，但背后的运行规律与相互作用模式可能是非常复杂的。思之至繁，方能行之至简。
