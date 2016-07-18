@@ -44,7 +44,7 @@ The function \\( \lambda(\alpha) \\) is called the **inverse Mills ratio**.
 
 ## Summary
 
-> Support Vector Machine can be used to ... many classification problems. 
+> Sample Selection model is an important correction for most of popular models.
 >
 > -- Jeremy Zhu
 
