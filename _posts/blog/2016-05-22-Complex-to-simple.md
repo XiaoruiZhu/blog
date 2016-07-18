@@ -1,0 +1,33 @@
+---
+layout: post
+title: 思之至繁，行之至简
+excerpt: 大道至简，但其积淀与基础凝结了无数繁琐的工序、环节以及组成部分。
+categories: blog
+tags: [哲学]
+comments: true
+share: true
+---
+
+大自然的简约与直接，但背后的运行规律与相互作用模式可能是非常复杂的。思之至繁，方能行之至简。
+
+1. 自然的简约与直接
+2. 自然规律的复杂与相互制约
+3. 至简的设计美学，简约的生活美学
+
+乔布斯的极简理论，让产品真正专注于其主要功能，满足用户的核心需求，只有这样，用户才能在使用产品时不用考虑具体的解决方案，使用方法，实现端到端的一站式高效解决策略。
+
+这从自然界中都实时有所反应，植物会自动的适应气候、日照等自然因素，并通过一系列目前未知或已知的化学反应实现生长，繁衍。继而植物界会哺育动物界，实现动物界的物质、能量循环。一层一层，环环紧扣。简化地看，这一切都是简单的生老病死的循环，深入的探究，每一个环节都涉及成百上千个复杂的子环节。
+
+行之至简，对于设计而言，就是要求的是在每一次产品、界面、操作系统、后台算法的设计过程当中，都力求简化。只有通过这样的简化，一方面，才能使得使用流程尽可能的高效，符合人类直观的行为习惯，例如触摸屏技术，多点触控技术；另一方面，才能在整个系统的不断完善过程中精准地实现各个层级的互相调用，因为简化的设计理念将有产生较少的调用参数，从而使得各个环节的互相调用更高效，也是的各个环节精准地解决特定的问题。
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=NPZyH05hvwE&feature=youtu.be" frameborder="0"> </iframe>
+
+Here is the vedio that helps me to solve the problem of Bose Home theater system's setting. [test](https://www.youtube.com/watch?v=NPZyH05hvwE&feature=youtu.be).
+
+{% highlight html %}
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=NPZyH05hvwE&feature=youtu.be" frameborder="0"> </iframe>
+{% endhighlight %}
+
+And here's a Vimeo embed for testing purposes.
+
+<iframe src="//player.vimeo.com/video/98146708?title=0&amp;byline=0" width="500" height="281" frameborder="0"> </iframe>

@@ -33,7 +33,7 @@ Here is the statistical definition of density of a truncation random variable:
 
 The density of truncated normal distribution:
 
-\\[ f(x|x>a)= \frac{f(x)}{1− \Phi(\alpha)} = \frac{\frac{1}{\delta} \phi (\frac{x-\mu}{\sigma}) }{1− \Phi(\alpha) \\]
+\\( f(x|x>a)= \frac{f(x)}{1− \Phi(\alpha)} = \frac{\frac{1}{\delta} \phi (\frac{x-\mu}{\sigma}) }{1− \Phi(\alpha) \\)
 
 ![Smithsonian Image]({{ site.url }}/images/momentoftruncated.png)
 
@@ -45,7 +45,7 @@ The function \\( \lambda(\alpha) \\) is called the **inverse Mills ratio**.
 
 ## Summary
 
-> Support Vector Machine can be used to ...
+> Support Vector Machine can be used to ... many classification problems. 
 >
 > -- Jeremy Zhu
 
