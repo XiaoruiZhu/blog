@@ -5,8 +5,8 @@ excerpt: "Here is an introduction of Xiaorui (Jeremy) Zhu."
 modified: 2016-04-18 00:21
 image:
   feature: so-simple-sample-image-4.jpg
-  credit: Jeremy Zhu
-  creditlink: https://xiaoruizhu.github.io/about/
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 This is personal site of Xiaorui (Jeremy) Zhu, who is a doctoral candidate of University of Cincinnati. His major is Business Analytics which is also quantitative analysis. He is a data-aholics and interested in data motivated analysis. He love to learn new knowledge and can quickly become skilled at them. 
