@@ -17,7 +17,7 @@ He is always tring to sharpen his skills in statistics, R and finance. His sever
 
 He is also a financial analyst, who is passionate in analyzing finance problem by using statistical quantitative methods, machine learning techniques and data mining.
 
-His goal is to combine what he have learned in statistics and finance and to put them to practices. Creating great things that will benefit the general public is my dream. And he also keep on improving myself.
+His goal is to combine what he have learned in statistics and finance and to put them to practices. Creating great things that will benefit the general public is his dream. And he also keep on improving himself.
 
 <a markdown="0" href="{{ site.url }}/research" class="btn">Find more research.</a>
 
