@@ -1,0 +1,69 @@
+---
+output: html_document
+---
+大数据分析的挑战 Challenges of Big Data Analysis
+========================================================
+
+摘要：
+
+大数据给现代社会带来了行的机遇，同时也给数据科学家带来了挑战。一方面，大数据对于发现轻微的分布规律以及多向性带来了极大的可能，这些在小规模数据上是不可能实现的。另一方面，大规模的样本量以及大数据的高纬度特性也引发了计算以及统计学上的挑战，包括可扩展性，存储瓶颈，噪声累计，伪相关，偶然内生性和度量误差。这些挑战都是显著存在并且急需计算及统计范例。这篇文章概述了大数据的突出特征，以及这些特征如何影响统计学和计算的方法范式的变化，同时也包括运算架构方面的变化。我们也提供了很多关于大数据分析及计算的新的观点。特别的，我们强调了对于高可信集上的最稀疏解决方案的可行性，也指出，由于偶然内生性，大多数统计方法的外生性假设并不可行。这些方法可能导致错误的统计推断和相应的错误科学结论。
+
+
+中文推介: 
+
+大数据分析给现代社会带来了新的机遇与挑战。一方面，与传统研究侧重于揭示事物的共性不同，大数据研究将有助于人们发现事物的个体特性，并针对每一个体的特性给出个体化的解决方案。同时，大数据研究也将使人们能够从大量个体的差异变化中，揭示其中存在的难以察觉的规律。另一方面，大数据的海量样本规模和高维数特征也引入以下显著特性：数据搜集的偏差性、数据产生的异母体性、计算成本、噪音的累积叠加、假关联性、外生性，以及测量误差等等。为了应对这些挑战，需要引入新的计算和统计方法。
+
+这篇综述阐述了大数据独有的特点及其对统计分析和计算体系结构的影响。
+
+首先，从计算的角度来看，大数据提供的数据量巨大，这会给实施统计计算和最后完成统计估算和检验带来问题。比如，对于一个列数上百万的矩阵，一次简单的矩阵求逆操作在计算上都是困难的。该文概括性地介绍了Hadoop分布式文件系统、MapReduce编程模型、云计算、凸优化算法，以及随机投影技术，以解决海量数据的计算问题。其次，从统计分析的角度来看，大数据经常包含被抽样个体的大量特征信息，即样本的个异性和高维性。个异性和高维性给统计分析与计算带来诸多问题，包括异母体、噪音累积、假相关、内生性。以假相关性为例，高维数会增加发现欺骗性关联的风险。比如，在人类基因表达数据分析中，学者可能会认为第八对染色体上的某个重要致癌基因（MYC）和Y染色体性别决定基因（SRY）有很强的相关性。但是，这可能仅仅是因为考虑的基因数目太高，以至于有些高相关性的出现只是偶然事件。
+
+该文也为大数据分析提供了新的展望。以高维数据下的统计推断为例，文中给出了高致信区间内的最稀疏解的一般解，并指出许多传统的理论所基于的外生性假设是不正确的，尤其可能导致错误的统计推断，并得出错误的科学结论。以内生性问题为例，范剑青教授和他的合作者指出，线性回归模型中的外生性假设在高维数下很可能是不正确的：当考虑的回归变量数目很大时，其中的一些回归量（自变量）很有可能和模型的误差项相关。他们发现，当内生性问题存在时，流行的高维回归方法（诸如lasso和SCAD）的估计值不具有相合性，即：随着样本数变大，估计量和母群体参数的差异不会趋近于零。本文介绍了一种新的、基于广义矩与高维回归的方法。这个方法可以克服内生性问题，并给出具有一致性的估计量。
+
+
+介绍：
+
+高维数据分析的两个主要目标是开发有效的统计预测方法，及对于科学目标探察特征及响应之间的关系。进一步，由于大数据样本，对于不同的子样本之间的异质性以及共性的理解成为可能。
+
+*Open Problem:* When the data are aggregated from multiply sources, it remains an open problem on what is the best normalization practice. 
+
+*Challenges of Neroscience:* One of the main challenges, as in the area of genomics, is to remove the systematic biases caused by experimental variations and data aggregations. The collected data contain many outliers and missing values. 
+
+Corporations are implementing specialized data analytics programs to collect, store, manage and analyze large datasets from a range of sources to identify key business insights that can be exploited to support better decision making. 
+
+*Challenges of Economics and Finance:*  Incorporating all information into the VAR model will cause severe overfitting and bad prediction performance. One solution is to resort to sparsity assumptions, under which new statistical tools have been developed [http://machinelearning.wustl.edu/mlpapers/paper_files/han13.pdf](Transition Matrix Estimation in High Dimensional Time Series). 
+
+Another example is portfolio optimization and risk management [52,53]. In this problem, estimat- ing the covariance and inverse covariance matrices of the returns of the assets in the portfolio plays an im- portant role. 
+
+
+Several other new applications that are becoming possible in the Big Data era include:
+
+(i) *Personalized services.* With more personal data collected, commercial enterprises are able to provide personalized services adapt to individual preferences. For example, Target (a retailing company in the United States) is able to predict a customer’s need by analyzing the collected transaction records.
+
+(ii) *Internet security.* When a network-based a attack takes place, historical data on network traffic may allow us to efficiently identify the source and targets of the attack.
+
+(iii) *Personalized medicine.* More and more health-related metrics such as individual’s molecular characteristics, human activities, human habits and environmental factors are now available. Using these pieces of information, it is possible to diagnose an individual’s disease and select individualized treatments.
+
+(iv) *Digital humanities.* Nowadays many archives are being digitized. For example, Google has scanned millions of books and identified about every word in every one of those books. This produces massive amount of data and enables addressing topics in the humanities, such as mapping the transportation system in ancient Roman, visualizing the economic connections of ancient China, studying how natural lan- guages evolve over time, or analyzing historical events.
+
+variable selection plays a pivotal role in overcoming noise accumulation in classication and regression prediction. However, variable selection in high dimensions is challenging due to spurious correlation, incidenal endorgeneity, heterogeneity and measurement errors.
+
+*Spurious correlation:* When the dimensionality is high, the important variables can be highly correlated with several spurious variables which are *scientically unrelated*.
+
+In a regression setting $Y = \sum^d_{j=1}(\beta_j * X_j) + \varepsilon$, the term ‘endogeneity’ means that some predictors ${X_j}$ correlate with the residual noise $\varepsilon$.
+
+To handle the noise-accumulation issue, we assume that the model parameter $\beta$ as in $y=X\beta + \varepsilon, Var(\varepsilon)=\sigma^2I_d$ is sparse. The classical model selection theory, according to [http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1100705&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1100705](A new look at the statistical model identification), suggests to choose a parameter vector $\beta$ that minimizes negative penalized quasi-likelihood: (2) $$ − QL(\beta) + \lambda\parallel\beta\parallel_0,$$ where $QL(\beta)$ is the quasi-likelihood of $\beta$ and $\parallel \cdot \parallel_0$ represents the $L_0$ pseudo-norm (i.e. the number of nonzero entries in a vector). This is similar to the concept in machine learning course, which is called estimation with regularization. 
+
+Here $\lambda>0$ is a regularization parameter that controls the bias-variance tradeoff. The solution to the optimization problem in (8) has nice statistical properties [79]. However, it is essentially combinatoric optimization and does not scale to large-scale problems.
+
+There are two main ideas of sure independent screening: (i) it uses the marginal contribution of a covariate to probe its importance in the joint model; and (ii) instead of selecting the most important variables, it aims at removing variables that are not important. For example, assuming each covariate has been standardized, we denote $\hat{\beta^M_j}$ the estimated regression coefficient in a univariate regression model. The set of covariates that survive the marginal screening is de ned as $$S = \{ j : |\hat{\beta^M_j} | \ge \delta \} $$ for a giving threshold $\delta$.
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+
