@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research and Publications
+title: Research
 excerpt: "This page is to display my research and publications."
 modified: 2016-04-15T23:10:38.564948-04:00
 image:
@@ -19,8 +19,10 @@ Languages: R, Python, SAS.
 
 ### Creative Perfomance in Online Education Environment.
 
-* Under construction! 
-* 敬请期待
+* Research Subjects: Students of "Creativity, Innovation and Change" (A Coursera course).
+* Focal points: Creativity, relationships between creative performance and failure.
+* Publication: Will be posted later.
+* Online interactive applications: [Creative Style Estimator EN-version](http://www.ameveryone.com/shiny/Creativity-En/)  [Creative Style Estimator CN-version](http://www.ameveryone.com/shiny/Creativity/)
 
 
 ### Adaptive Quasi-Maximum Likelihood Estimation
