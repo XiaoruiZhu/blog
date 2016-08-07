@@ -21,8 +21,8 @@ Languages: R, Python, SAS.
 
 * Research Subjects: Students of "Creativity, Innovation and Change" (A Coursera course).
 * Focal points: Creativity, relationships between creative performance and failure.
-* Publication: Will be posted later.
-* Online interactive applications: [Creative Style Estimator EN-version](http://www.ameveryone.com/shiny/Creativity-En/)  [Creative Style Estimator CN-version](http://www.ameveryone.com/shiny/Creativity/)
+* Publication: [2016 ASEE Annual Conference Paper](https://www.asee.org/public/conferences/64/papers/15401/view)
+* Online interactive applications: [Creative Style Estimator EN](http://www.ameveryone.com/shiny/Creativity-En/) ;  [Creative Style Estimator CN](http://www.ameveryone.com/shiny/Creativity/)
 
 
 ### Adaptive Quasi-Maximum Likelihood Estimation
