@@ -16,10 +16,9 @@ share: true
 
 **Installation:**
 
-1. Read and follow the instruction here step by step to install: http://www.sas.com/en_us/software/university-edition/download-software.html#windows
+1. Read and follow the instruction here step by step to install: [SAS University Edition instruction](http://www.sas.com/en_us/software/university-edition/download-software.html#windows)
 
-2. Install VirtualBox based on your OS before install SAS University Edition, download here: https://www.virtualbox.org/wiki/Download_Old_Builds_5_1 
-			  (Please try VirtualBox 5.1.2. I tried 5.1.0, but it doesn’t work.)
+2. Install VirtualBox based on your OS before install SAS University Edition, download here: [VirtualBox download](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) (Please try VirtualBox 5.1.2. I tried 5.1.0, but it doesn’t work.)
 
 3. Download SAS vApp on the same page of step 1. 
 
@@ -41,13 +40,13 @@ share: true
 
 **Launch:**
 
-1. Read and follow the instruction: http://support.sas.com/software/products/ondemand-academics/#s1=2
+1. Read and follow the instruction: [SAS OnDemand instruction](http://support.sas.com/software/products/ondemand-academics/#s1=2) 
 
-2. Registration link (It is on the instruction page above, Step 1 of Independent Learners): https://odamid.oda.sas.com/SASODARegistration/
+2. Registration link (It is on the instruction page above, Step 1 of Independent Learners): [Registration Application](https://odamid.oda.sas.com/SASODARegistration/)
 
-3. Watch “Register and Log in” video: http://www.sas.com/apps/webnet/video-sharing.html?bcid=3794695462001
+3. Watch “Register and Log in” video: [Video](http://www.sas.com/apps/webnet/video-sharing.html?bcid=3794695462001)
 
-4. Login page of SAS Studio (It’s also on the instruction page, “SAS OnDemand for Academics Control Center”): https://odamid.oda.sas.com/SASODAControlCenter 
+4. Login page of SAS Studio (It’s also on the instruction page, “SAS OnDemand for Academics Control Center”): [Control Center](https://odamid.oda.sas.com/SASODAControlCenter)
 
 **Pros:**
 
