@@ -14,39 +14,57 @@ share: true
 
 ## 1. SAS University Edition
 
-Installation: 
+**Installation: **
+
 	  1. Read and follow the instruction here step by step to install: http://www.sas.com/en_us/software/university-edition/download-software.html#windows
+	  
 	  2. Install VirtualBox based on your OS before install SAS University Edition, download here: https://www.virtualbox.org/wiki/Download_Old_Builds_5_1 
 			  (Please try VirtualBox 5.1.2. I tried 5.1.0, but it doesn’t work.)
+			  
 	  3. Download SAS vApp on the same page of step 1. 
+	  
 	  4. Watch the Quick start video to set local folder. 
 
-Pros: 
+**Pros: **
+
 1. It’s installed on your computer so files will be saved locally, 
+
 2. Datasets will be read locally, so big datasets work efficiently.  
 
-Cons: 
+**Cons: **
+
 1. Open VirtualBox every time and open Browsers to use SAS Studio; 
+
 2. In total, SAS University and VirtualBox will eat your about 2.5GB space. 
 
 ## 2. SAS OnDemand Academic
 
-Launch: 
+**Launch: **
+
 	1. Read and follow the instruction: http://support.sas.com/software/products/ondemand-academics/#s1=2
+
 	2. Registration link (It is on the instruction page above, Step 1 of Independent Learners): https://odamid.oda.sas.com/SASODARegistration/
+
 	3. Watch “Register and Log in” video: http://www.sas.com/apps/webnet/video-sharing.html?bcid=3794695462001
+
 	4. Login page of SAS Studio (It’s also on the instruction page, “SAS OnDemand for Academics Control Center”): https://odamid.oda.sas.com/SASODAControlCenter 
 
-Pros: 
+**Pros: **
+
 1. First thing first, it’s easy to have SAS workable. All in Browser! 
+
 2. It’s a SAS server on the cloud, you’ll save your files and data in your SAS account. So you can access to them wherever you have Internet.  
+
 3*. The running speed may be faster than SAS University. (Maybe or just same, I haven’t try!)
 
-Cons:
+**Cons:**
+
 1. You need download your programs if you want run locally. 
+
 2. You may take some time when you try to upload very big datasets (Depends on you bandwidth)  
 
-Suggestions: 
+**Suggestions: **
+
 If you still face issues to have SAS workable or have trouble in using SAS, all you need is patience (Think and solve it with the help of Google!). Moreover, focus on learning how to use SAS and R!
 
 > 理解统计学将有助于更好的理解这个世界的运行与发展！
