@@ -15,7 +15,15 @@ Time-series Analysis. Financial Modeling. Statistical analysis. Machine Learning
 
 Languages: R, Python, SAS.
 
-## Research projects:
+## Research projects(newest to oldest):
+
+### Bankruptcy Prediction
+
+* Forecasting probability of bankruptcy via discrete hazard model
+
+### Robust Estimation Method for cell-wise contaminated data
+
+* Propose a robust estimation method of linear model for cell-wise contaminated data. Using elastic net method and ADMM algorithm. 
 
 ### Creative Perfomance in Online Education Environment.
 
@@ -23,7 +31,6 @@ Languages: R, Python, SAS.
 * Focal points: Creativity, relationships between creative performance and failure.
 * Publication: [2016 ASEE Annual Conference Paper](https://www.asee.org/public/conferences/64/papers/15401/view)
 * Online interactive applications: [Creative Style Estimator EN](http://www.ameveryone.com/shiny/Creativity-En/) ;  [Creative Style Estimator CN](http://www.ameveryone.com/shiny/Creativity/)
-
 
 ### Adaptive Quasi-Maximum Likelihood Estimation
 
