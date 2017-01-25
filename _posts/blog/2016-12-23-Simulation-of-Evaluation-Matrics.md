@@ -8,7 +8,7 @@ comments: true
 share: true
 image:
 feature:
-date: 2016-12-23
+date: Dec 23, 2016
 ---
 
 This post is the simulation work for many different evaluation matrics in Machine Learning filed. In order to show what matrics work in certain situations, for different setting (including balanced data, imbalanced data), this study shows performance of different matrics so that the applicabilities of each one can be seen clearly. 

@@ -8,7 +8,7 @@ comments: true
 share: true
 image:
 feature:
-date: 2017-01-13
+date: Jan 13, 2017
 ---
 
 # Several big innovations that benefit you most
