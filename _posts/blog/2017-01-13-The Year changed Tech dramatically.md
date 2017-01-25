@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The year changed Tech dramatically: 2007
+title: The year changed Tech dramatically 2007
 categories: blog, Tech
 excerpt: 
 tags: [Tech]
