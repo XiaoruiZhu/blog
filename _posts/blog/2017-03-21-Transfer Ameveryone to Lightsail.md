@@ -42,3 +42,40 @@ d. Enable root: sudo docker run -d -p 8787:8787 -e ROOT=TRUE rocker/rstudio
 8. Important! While the container is starting, go back to the Lightsail tab in your browser and click in the three dots in the “Running” instance to Manage. then click on the Networking tab. In the table of two enabled ports, click on the plus “Add Another”. Leave “Custom” and “All” under “Aplication” and “Protocol”, repectively, and change port range to 8787. Save.
 
 9. The public IP is printed on the Networking page there. Cut and paste into your browser with :8787 appended. Your username and password are both rstudio, unless you changed them. To allow additional users onto your cloud server, see this page.
+
+# Problems sovling
+
+The best way to avoid this is to use the '--no-lock' argument on the command line, e.g.,
+
+R CMD INSTALL --no-lock <pkg>
+
+On NFS file systems it is sometimes not obvious what things you have to close. From within R, you can do this from within your command using:
+
+**install.packages("Rcpp", dependencies=TRUE, INSTALL_opts = c('--no-lock'))**
+
+# Issues
+
+sudo su - -c "R -e \"install.packages(c('Rcpp','shiny','httpuv'), repos='http://cran.rstudio.com/', dependencies=TRUE, INSTALL_opts = c('--no-lock'))\""
+
+
+g++: internal compiler error: Killed (program cc1plus)
+
+Please submit a full bug report,
+
+查了很多资料，最后发现主要原因是内存不足，g++编译时需要大量内存， 临时使用交换分区来解决吧
+
+sudo dd if=/dev/zero of=/swapfile bs=64M count=16
+
+sudo mkswap /swapfile
+
+sudo swapon /swapfile
+
+After compiling, you may wish to
+
+Code:
+  
+sudo swapoff /swapfile
+
+sudo rm /swapfile
+
+
