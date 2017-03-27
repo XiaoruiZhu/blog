@@ -1,5 +1,5 @@
 ---
-layout: post
+# layout: post
 title: The year changed Tech dramatically 2007
 categories: blog, Tech
 excerpt: 

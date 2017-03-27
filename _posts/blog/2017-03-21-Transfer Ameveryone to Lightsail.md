@@ -57,12 +57,9 @@ On NFS file systems it is sometimes not obvious what things you have to close. F
 
 sudo su - -c "R -e \"install.packages(c('Rcpp','shiny','httpuv'), repos='http://cran.rstudio.com/', dependencies=TRUE, INSTALL_opts = c('--no-lock'))\""
 
+compiling error, might lack memory, can use temporary disk to solve it.
 
-g++: internal compiler error: Killed (program cc1plus)
-
-Please submit a full bug report,
-
-查了很多资料，最后发现主要原因是内存不足，g++编译时需要大量内存， 临时使用交换分区来解决吧
+**Solution:**
 
 sudo dd if=/dev/zero of=/swapfile bs=64M count=16
 
