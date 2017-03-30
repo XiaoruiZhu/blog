@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* DEFINITIONS: Faculty
+	AUTHOR:     ELM at the IGM
+	VERSION:    2011-08-11 */
+
+/* UNIVERSAL STYLES */
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #818181;
+	font-size: 13px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+	margin-bottom: 0.4em;
+}
+h1 {
+	font-size: 1.6em;
+	color: #FFF;
+	background-color: #333;
+	padding: 3px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: normal;
+	color: #730D0F;
+}
+h3 {
+	font-size: 1.4em;
+	text-transform: none;
+	font-variant: small-caps;
+}
+h4, h5, h6 {
+	font-size: 1.4em;
+}
+a {
+	color: #CED0CA;
+	text-decoration: none;
+}
+a:hover {
+	color: #CED0CA;
+	background-color: #9B1115;
+}
+a:focus, a:active {
+	color: #CED0CA;
+	background-color: #999;
+}
+ul {
+	margin: 0px;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 0.6em;
+}
+
+
+/* INDEX PAGE STYLES */
+
+#indexpagewrapper {
+	background-image: url(../images/indexpagebackground.png);
+	color: #FFF;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#indexspacer {
+	height: 354px;
+	width: 900px;
+}
+
+#indexpageprofessor {
+	font-size: 4.6em;
+	width: 431px;
+	position: absolute;
+	left: 64px;
+	z-index: 1;
+	top: 141px;
+	height: 119px;
+}
+#indeximage {
+	height: 525px;
+	position: absolute;
+	left: 400px;
+	top: 70px;
+	z-index: 0;
+	width: 351px;
+}
+
+#indexpagenavigation {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2em;
+	width: auto;
+	margin-left: 100px;
+	margin-bottom: 25px;
+	color: #CCC;
+	height: auto;
+}
+#indexpagenavigation ul {
+	padding: 0px;
+	list-style-type: none;
+	text-align: left;
+}
+#indexpagenavigation ul li a {
+	color: #ccc;
+	text-decoration: none;
+}
+.index-navigation {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+#indexpagefooter {
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 0.9em;
+}
+#indexpagefooter a{
+	color: #FFF;
+}
+#contactme {
+	float: right;
+	margin-right: 30px;
+	margin-top: 315px;
+	font-size: 9px;
+}
+
+
+/*Class Styles*/
+
+.indent {
+	margin-left: 25px;
+}
+.no-bullet  {
+	list-style-type: none;
+}
+.right {
+	float: right;
+}
+.shadow {
+	text-shadow: black 0.1em 0.1em 0.2em;
+	padding-bottom: 2px;
+	line-height: 10px;
+	margin-top: 20px;
+}
+.educationaluse {
+	text-align: center;
+}
