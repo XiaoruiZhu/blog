@@ -1,19 +1,19 @@
 #+BLOG: Blog
 #+POSTID: 80
-#+DATE: [2013-07-05 ÖÜÎå 11:39]
+#+DATE: [2013-07-05 å‘¨äº” 11:39]
 #+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
 #+CATEGORY: org2blog, emacs
 #+TAGS:
-#+DESCRIPTION: ÓÃorg2blog·¢ËÍµÚ¶şÆªÔ´´úÂëµÄÊÔÊÔ¿´
-#+TITLE: ÓÃEamcsµÄorg2blog·¢±íWordPress²©¿Í(×¢Ã÷ÊÇ×ªÔØ£¬Ô­ÒòÊÇÎªÁË²âÊÔÔ´´úÂëµÄ²©¿ÍÊéĞ´£©
+#+DESCRIPTION: ç”¨org2blogå‘é€ç¬¬äºŒç¯‡æºä»£ç çš„è¯•è¯•çœ‹
+#+TITLE: ç”¨Eamcsçš„org2blogå‘è¡¨WordPressåšå®¢(æ³¨æ˜æ˜¯è½¬è½½ï¼ŒåŸå› æ˜¯ä¸ºäº†æµ‹è¯•æºä»£ç çš„åšå®¢ä¹¦å†™ï¼‰
 
-* Ç°Ìá
-1. °²×° org-mode ,ÔÚ [[http://orgmode.org/][ÕâÀï]] ÏÂÔØ;
-1. °²×° xml-rpc.el ,ÔÚ[[http://www.emacswiki.org/emacs-en/xml-rpc.el][ ÕâÀï]] ÏÂÔØ,·ñÔòÓÃorg2blogÖĞµÄÃüÁîµÇÂ¼²©¿ÍÊÇ»á³öÏÖ"beval-buffer: Cannot open load file: xml-rp"´íÎóÌáÊ¾;
-1. °²×° metaweblog.el ,ÔÚ [[https://github.com/punchagan/metaweblog.el][ÕâÀï]] ÏÂÔØ,·ñÔòÓÃorg2blogÖĞµÄÃüÁîµÇÂ¼²©¿ÍÊÇ»á³öÏÖ"eval-buffer: Cannot open load file: metaweblog"´íÎóÌáÊ¾;
-* °²×°org2blog
+* å‰æ
+1. å®‰è£… org-mode ,åœ¨ [[http://orgmode.org/][è¿™é‡Œ]] ä¸‹è½½;
+1. å®‰è£… xml-rpc.el ,åœ¨[[http://www.emacswiki.org/emacs-en/xml-rpc.el][ è¿™é‡Œ]] ä¸‹è½½,å¦åˆ™ç”¨org2blogä¸­çš„å‘½ä»¤ç™»å½•åšå®¢æ˜¯ä¼šå‡ºç°"beval-buffer: Cannot open load file: xml-rp"é”™è¯¯æç¤º;
+1. å®‰è£… metaweblog.el ,åœ¨ [[https://github.com/punchagan/metaweblog.el][è¿™é‡Œ]] ä¸‹è½½,å¦åˆ™ç”¨org2blogä¸­çš„å‘½ä»¤ç™»å½•åšå®¢æ˜¯ä¼šå‡ºç°"eval-buffer: Cannot open load file: metaweblog"é”™è¯¯æç¤º;
+* å®‰è£…org2blog
 1. " git clone http://github.com/punchagan/org2blog.git"
-1. ÔÚ .emacs ÖĞÌí¼ÓÈçÏÂÁ½ĞĞ£º
+1. åœ¨ .emacs ä¸­æ·»åŠ å¦‚ä¸‹ä¸¤è¡Œï¼š
 
 #+BEGIN_HTML
 <pre lang="html" line="1">
@@ -21,9 +21,9 @@
 (require 'org2blog-autoloads)
 </pre>
 #+END_HTML
-* Ê¹ÓÃ
-***** ¶¨ÒåÒª´´½¨µÄ²©¿Í
-ÔÚ .emacs ÖĞ¼ÓÈëÈçÏÂ´úÂë
+* ä½¿ç”¨
+***** å®šä¹‰è¦åˆ›å»ºçš„åšå®¢
+åœ¨ .emacs ä¸­åŠ å…¥å¦‚ä¸‹ä»£ç 
 #+BEGIN_HTML
 <pre lang="html" line="1">
         (setq org2blog/wp-blog-alist '(("wordpress"
@@ -37,16 +37,16 @@
           :username "admin")))
 </pre>
 #+END_HTML
-***** ÓÃorg2blogĞ´Ò»¸ö²©¿Í
-1. M-x org2blog/wp-login - µÇÂ¼µ½²©¿Í¡£
-1. M-x org2blog/wp-new-post - ´´½¨Ò»¸öĞÂµÄ²©ÎÄ¡£
-1. Ğ´ÎÄÕÂ
-1. C-x C-s : ±£´æĞŞ¸Ä
-1. C-c d : Ïàµ±ÓëÃüÁî org2blog/wp-post-buffer £¬ËûÊ¹ÓÃÀ´Ìá½»µ½²İ¸åÏäµÄ£¬¿ÉÒÔÈ¥²©¿Í½øĞĞÔ¤ÀÀ¡£
-1. Ô¤ÀÀµÄÊ±ºò¿ÉÒÔ°´ 'y' ÔÚä¯ÀÀÆ÷ÖĞ²é¿´
-1. ¼ÌĞøĞŞ¸Ä£¬Ö±µ½Íê³É¡£
-1. C-c p : ·¢²¼²©ÎÄ£¬ÈÃËùÓĞÈË¶¼ÄÜ¿´µ½¡£
-* ²Î¿¼Á¬½Ó
+***** ç”¨org2blogå†™ä¸€ä¸ªåšå®¢
+1. M-x org2blog/wp-login - ç™»å½•åˆ°åšå®¢ã€‚
+1. M-x org2blog/wp-new-post - åˆ›å»ºä¸€ä¸ªæ–°çš„åšæ–‡ã€‚
+1. å†™æ–‡ç« 
+1. C-x C-s : ä¿å­˜ä¿®æ”¹
+1. C-c d : ç›¸å½“ä¸å‘½ä»¤ org2blog/wp-post-buffer ï¼Œä»–ä½¿ç”¨æ¥æäº¤åˆ°è‰ç¨¿ç®±çš„ï¼Œå¯ä»¥å»åšå®¢è¿›è¡Œé¢„è§ˆã€‚
+1. é¢„è§ˆçš„æ—¶å€™å¯ä»¥æŒ‰ 'y' åœ¨æµè§ˆå™¨ä¸­æŸ¥çœ‹
+1. ç»§ç»­ä¿®æ”¹ï¼Œç›´åˆ°å®Œæˆã€‚
+1. C-c p : å‘å¸ƒåšæ–‡ï¼Œè®©æ‰€æœ‰äººéƒ½èƒ½çœ‹åˆ°ã€‚
+* å‚è€ƒè¿æ¥
 1. https://github.com/punchagan/org2blog/blob/master/README.org#readme
 1. http://www.pablumfication.co.uk/2012/01/15/blog-posting-with-emacs-using-org2blog/
 1. http://blog.gabrielsaldana.org/post-to-wordpress-blogs-with-emacs-org-mode/

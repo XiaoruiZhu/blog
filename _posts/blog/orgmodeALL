@@ -3,11 +3,11 @@
 #+CATEGORY: org-mode, latex, emacs, org2blog
 #+TAGS:pdf, emacs, latex
 #+DESCRIPTION:
-#+TITLE: Org-mode ×ªpdf£¬·¢²©¿Í£¬¼Ç±Ê¼ÇÒ»Â·Í¨£¡
+#+TITLE: Org-mode è½¬pdfï¼Œå‘åšå®¢ï¼Œè®°ç¬”è®°ä¸€è·¯é€šï¼
 
 Org mode supports insertion of empty structural elements (like #+BEGIN_SRC and #+END_SRC pairs) with just a few key strokes. This is achieved through a native template expansion mechanism. Note that Emacs has several other template mechanisms which could be used in a similar way, for example yasnippet.
 
-To insert a structural element, type a ¡®<¡¯, followed by a template selector and <TAB>. Completion takes effect only when the above keystrokes are typed on a line by itself.
+To insert a structural element, type a â€˜<â€™, followed by a template selector and <TAB>. Completion takes effect only when the above keystrokes are typed on a line by itself.
 
 The following template selectors are currently supported.
 

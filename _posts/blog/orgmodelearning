@@ -1,17 +1,17 @@
 #+BLOG: Blog
 #+POSTID: 127
-#+DATE: [2013-07-06 ÖÜÁù 22:03]
+#+DATE: [2013-07-06 å‘¨å…­ 22:03]
 #+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
 #+CATEGORY: learning, emacs
 #+TAGS:
 #+DESCRIPTION:
-#+TITLE: Emacs org modeÀ´¼ÇÑ§Ï°±Ê¼Ç
-* ÕâÊÇÁ¬½Ó£¬ĞèÒª½ÓÏÂÀ´Ñ§Ï°£¡
+#+TITLE: Emacs org modeæ¥è®°å­¦ä¹ ç¬”è®°
+* è¿™æ˜¯è¿æ¥ï¼Œéœ€è¦æ¥ä¸‹æ¥å­¦ä¹ ï¼
 - [[http://emacser.com/org-mode.htm#sec-2][http://emacser.com/org-mode.htm#sec-2]]
-* »¹ÓĞÒ»¸öÁ´½ÓÈçÏÂ
-- Ê¹ÓÃorg-modeÀ´GTD£¨2£©¡ª ÈÕ³Ì±íµ¼Èëµ½GoogleÈÕÀú
-1. ²©Ö÷£ºÒ×·ÉÑï
-1. Ô­ÎÄÁ´½Ó : http://www.yifeiyang.net/using-the-org-mode-for-gtd-2-agenda-view-import-google-calendar/
-*  ÈÎÎñ¹ÜÀí¹¦ÄÜorg-mode
-- EmacsÑ§Ï°±Ê¼Ç(10):Org-mode,×îÇ¿µÄÈÎÎñ¹ÜÀíÀûÆ÷£¬Ã»ÓĞÖ®Ò»
+* è¿˜æœ‰ä¸€ä¸ªé“¾æ¥å¦‚ä¸‹
+- ä½¿ç”¨org-modeæ¥GTDï¼ˆ2ï¼‰â€” æ—¥ç¨‹è¡¨å¯¼å…¥åˆ°Googleæ—¥å†
+1. åšä¸»ï¼šæ˜“é£æ‰¬
+1. åŸæ–‡é“¾æ¥ : http://www.yifeiyang.net/using-the-org-mode-for-gtd-2-agenda-view-import-google-calendar/
+*  ä»»åŠ¡ç®¡ç†åŠŸèƒ½org-mode
+- Emacså­¦ä¹ ç¬”è®°(10):Org-mode,æœ€å¼ºçš„ä»»åŠ¡ç®¡ç†åˆ©å™¨ï¼Œæ²¡æœ‰ä¹‹ä¸€
 - http://www.cnblogs.com/holbrook/archive/2012/04/14/2447754.html

@@ -1,15 +1,15 @@
 #+BLOG: Blog
 #+POSTID: 239
-#+DATE: [2013-07-17 ���� 10:56]
+#+DATE: [2013-07-17 周三 10:56]
 #+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
 #+CATEGORY: emacs
 #+TAGS:emacs
 #+DESCRIPTION:
-#+TITLE: Emacs�п��ٲ������ڣ�����ʱ��Ŀ�ݼ�����
-* Emacs�в�������/ʱ���ݼ�
-** �����µ�lisp�������.emacs�ļ���
-+ ����C-c\C-dΪ��������+ʱ�䡣
-+ C-c\C-t:Ϊ������ʱ�䡣
+#+TITLE: Emacs中快速插入日期，或者时间的快捷键设置
+* Emacs中插入日期/时间快捷键
+** 将如下的lisp代码加入.emacs文件中
++ 即绑定C-c\C-d为插入日期+时间。
++ C-c\C-t:为仅插入时间。
 #+begin_html
 <pre lang="html" line="1">
 ;; ====================
