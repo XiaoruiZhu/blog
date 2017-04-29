@@ -19,11 +19,11 @@ Languages: R, Python, SAS.
 
 ### Bankruptcy Prediction
 
-* Forecasting probability of bankruptcy via discrete hazard model
+* Bankruptcy Prediction by Additive Logistic Model
 
 ### Robust Estimation Method for cell-wise contaminated data
 
-* Propose a robust estimation method of linear model for cell-wise contaminated data. Using elastic net method and ADMM algorithm. 
+* Propose a robust estimation method of linear model for cell-wise contaminated data.
 
 ### Creative Perfomance in Online Education Environment.
 
