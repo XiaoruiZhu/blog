@@ -68,6 +68,7 @@ share: true
 
 If you face issue like above, please read this help page first [VirtualBox Error](http://support.sas.com/kb/46/250.html), or let IT stuff in 2nd floor lab know. They may help you to correct your BIOS problem. 
 
+
 If you still face issues to have SAS workable or have trouble in using SAS, all you need is patience (Think and solve it with the help of Google!). Moreover, focus on learning how to use SAS and R!
 
 > 理解统计学将有助于更好的理解这个世界的运行与发展！
