@@ -12,31 +12,7 @@ comments: true
 share: true
 ---
 
-## 1. SAS University Edition
-
-**Installation:**
-
-1. Read and follow the instruction here step by step to install: [SAS University Edition instruction](http://www.sas.com/en_us/software/university-edition/download-software.html#windows)
-
-2. Install VirtualBox based on your OS before install SAS University Edition, download here: [VirtualBox download](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) (Please try VirtualBox 5.1.2. I tried 5.1.0, but it doesn’t work.)
-
-3. Download SAS vApp on the same page of step 1. 
-
-4. Watch the Quick start video to set local folder. 
-
-**Pros:**
-
-1. It’s installed on your computer so files will be saved locally, 
-
-2. Datasets will be read locally, so big datasets work efficiently.  
-
-**Cons:**
-
-1. Open VirtualBox every time and open Browsers to use SAS Studio; 
-
-2. In total, SAS University and VirtualBox will eat your about 2.5GB space. 
-
-## 2. SAS OnDemand Academic
+## 1. SAS OnDemand Academic(Cloud Version)
 
 **Launch:**
 
@@ -61,6 +37,30 @@ share: true
 1. You need download your programs if you want run locally. 
 
 2. You may take some time when you try to upload very big datasets (Depends on you bandwidth)  
+
+## 2. SAS University Edition(Local Version)
+
+**Installation:**
+
+1. Read and follow the instruction here step by step to install: [SAS University Edition instruction](http://www.sas.com/en_us/software/university-edition/download-software.html#windows)
+
+2. Install VirtualBox based on your OS before install SAS University Edition, download here: [VirtualBox download](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) (Please try VirtualBox 5.1.2. I tried 5.1.0, but it doesn’t work.)
+
+3. Download SAS vApp on the same page of step 1. 
+
+4. Watch the Quick start video to set local folder. 
+
+**Pros:**
+
+1. It’s installed on your computer so files will be saved locally, 
+
+2. Datasets will be read locally, so big datasets work efficiently.  
+
+**Cons:**
+
+1. Open VirtualBox every time and open Browsers to use SAS Studio; 
+
+2. In total, SAS University and VirtualBox will eat your about 2.5GB space. 
 
 **Suggestions:**
 
