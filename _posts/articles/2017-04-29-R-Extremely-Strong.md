@@ -2,7 +2,7 @@
 layout: post
 title: R is extremely strong. 不得不说R如此强大！
 modified: 2017-04-29 Sat 00:18
-categories: blog, Statistics, R, Machine Learning
+categories: articles, Statistics, R, Machine Learning
 excerpt: I have to say that R is extremely strong. 不得不说R如此强大！
 tags: [R, Statistics, Machine Learning, emacs]
 comments: true
