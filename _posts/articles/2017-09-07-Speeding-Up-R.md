@@ -7,7 +7,7 @@ excerpt: "Speeding up R computation for simulation or package purposes."
 tags: [statistics, SAS]
 image: 
 feature: 
-date: "`r format(Sys.time(), '%B %d, %Y')`"
+date: Sep 07, 2017
 comments: true
 share: true
 ---
