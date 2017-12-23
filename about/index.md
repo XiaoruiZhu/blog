@@ -9,16 +9,13 @@ image:
   creditlink: https://xiaoruizhu.github.io/about/
 ---
 
-This is personal site of Xiaorui (Jeremy) Zhu, who is a doctoral student at University of Cincinnati, Lindner College of Business. His major is Business Analytics which is also called quantitative analysis. He is an enthusiast of data motivated analysis, machine learning, statistical computing and methodology. He loves to learn new knowledge and can quickly become skilled at them. 
+This is personal site of Xiaorui (Jeremy) Zhu, who is a doctoral student at University of Cincinnati, Lindner College of Business. His major is Business Analytics. Before coming to the University of Cincinnati, he received an MS in Finance from the Penn State University and a master of applied statistics from Beijing University of Technology.
 
-## Self-motivated learner
+His research interests include high dimensional statistics, machine learning, quantitative finance, and its applications. In quantitative finance, he studied volatility models of financial time series with heavy-tailed innovation. His another project is predicting corporate bankruptcy and demystifying nonlinear relationships.
 
-He always tries to sharpen his skills in statistics, R and finance. His several research experiences enriched his skills in statistics and data analysis. He believe that different computer languages will strengthen problem-solving skills. So he frequently uses R, SAS and Python. 
+He believes that stay Hungry, stay Foolish, and stay Creative is the secret to success. And he dreams of being able to create meaningful things that will benefit the general public.
 
-He is also passionate in analyzing finance problems and asset valuation by using statistical quantitative methods, machine learning and data mining techniques.
-
-His goal is to combine what he have learned in statistics and finance and to put them into practices. Creating great things that will benefit the general public is his dream.
-
-<a markdown="0" href="{{ site.url }}/research" class="btn">Find more research.</a>
+<a markdown="0" href="http://homepages.uc.edu/~zhuxr/" class="btn">Find more research</a>
+<a markdown="0" href="http://www.airione.org/shiny/" class="btn">Find his Shiny Apps</a>
 
 [^1]: Example: *domain.com/category-name/post-title*
