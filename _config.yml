@@ -6,6 +6,8 @@ description: Only the paranoid survive! Here are my research, interests and life
 logo: site-logo.png
 search: true
 url: https://xiaoruizhu.github.io
+read_time: true
+words_per_minute: 200
 
 # Jekyll configuration
 
