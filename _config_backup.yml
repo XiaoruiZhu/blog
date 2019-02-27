@@ -1,0 +1,72 @@
+# Site wide configuration
+
+title: Xiaorui (Jeremy) Zhu 朱浚铭
+locale: en_US
+description: Only the paranoid survive! Here are my research, interests and life.
+logo: site-logo.png
+search: true
+url: https://xiaoruizhu.github.io
+remote_theme: mmistakes/so-simple-theme
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Xiaorui (Jeremy) Zhu
+  avatar: bio-photo.jpg
+  email: zhuxiaorui1989@gmail.com
+  disqus-shortname: jeremyzhu
+  twitter: dale_zhu
+  facebook: xiaor.zhu
+  github: xiaoruizhu
+  stackexchange: http://stackoverflow.com/users/6088044/xiaorui-zhu
+  linkedin: jeremychu89
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: 1246701103
+  google:
+    plus: 118415573512961148625
+    analytics: UA-54280540-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:

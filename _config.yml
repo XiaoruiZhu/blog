@@ -1,72 +1,89 @@
 # Site wide configuration
-
+theme: jekyll-theme-so-simple
 title: Xiaorui (Jeremy) Zhu 朱浚铭
 locale: en_US
 description: Only the paranoid survive! Here are my research, interests and life.
 logo: site-logo.png
 search: true
+baseurl: # the subpath of your site, e.g. "/blog"
 url: https://xiaoruizhu.github.io
-remote_theme: mmistakes/so-simple-theme
+date_format: "%B %-d, %Y"
+read_time: true # reading time estimates, e.g. true
+words_per_minute: 200 # 200
+mathjax: true # MathJax equations, e.g. true
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+google_analytics: UA-54280540-1 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+disqus:
+  shortname: jeremyzhu # Disqus shortname, e.g. "my_disqus_shortname"
+twitter:
+  username: dale_zhu # site's Twitter username, e.g. "mmistakes"
 
-# Jekyll configuration
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Search
+search_full_content: false # can have performance implications for large sites
+
+plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-gist
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
-
-mathjax: true
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+  - jekyll-feed
+  - jekyll-paginate
 
 
-# Octopress
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
 
-# Default extensions
-post_ext: md
-page_ext: md
-
-# Found in _templates/
-post_layout: post
-page_layout: page
-
-# Format titles with titlecase?
-titlecase: true
-
-
-# Site owner
-owner:
+# Site Author
+author:
   name: Xiaorui (Jeremy) Zhu
-  avatar: bio-photo.jpg
+  picture: bio-photo.jpg
   email: zhuxiaorui1989@gmail.com
-  disqus-shortname: jeremyzhu
   twitter: dale_zhu
-  facebook: xiaor.zhu
-  github: xiaoruizhu
-  stackexchange: http://stackoverflow.com/users/6088044/xiaorui-zhu
-  linkedin: jeremychu89
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: 1246701103
-  google:
-    plus: 118415573512961148625
-    analytics: UA-54280540-1
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+  links:
+    - title: Ph.D. Candadite at University of Cincinnati
+      url: http://homepages.uc.edu/~zhuxr/
+      icon: site-logo.png
+
+# Footer Links
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/dale_zhu
+    icon: fab fa-twitter-square
+  - title: Facebook
+    url: https://facebook.com/xiaor.zhu
+    icon: fab fa-facebook-square
+  - title: Linkedin
+    url: https://linkedin.com/in/jeremychu89
+    icon: fab fa-linkedin
+  - title: Github
+    url: https://github.com/xiaoruizhu
+    icon: fab fa-github-square
+  - title: Stackexchange
+    url: https://stackexchange.com/users/3539424/xiaorui-zhu
+    icon: fab fa-stack-exchange
+  - title: Weibo
+    url: https://www.weibo.com/u/1246701103
+    icon: fab fa-weibo
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
