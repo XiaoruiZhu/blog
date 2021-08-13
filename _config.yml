@@ -21,37 +21,37 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Xiaorui (Jeremy) Zhu 朱浚铭"
 description: "Only the paranoid survive! Here are my research, interests and life."
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl:  # the subpath of your site, e.g. "/blog"
 url: "https://xiaoruizhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/docs/favicon.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
 words_per_minute: 200 # 200
-mathjax:
+mathjax: 
   enable: true # MathJax equations, e.g. true, false (default)
   combo: "tex-svg" # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags: "ams" # "none", "ams" (default), "all"
-google_fonts:
+google_fonts: 
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
 google_analytics: UA-54280540-1 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
+disqus: 
   shortname: "jeremyzhu" # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
+twitter: 
   username: "dale_zhu" # site's Twitter username, e.g. "mmistakes"
 
 
 
 # Liquid
-liquid:
+liquid: 
   error_mode: strict
 
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
-feed:
+feed: 
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
@@ -77,29 +77,29 @@ tag_archive_path: "/tags/#"
 #   - vendor/gems/
 #   - vendor/ruby/
 
-plugins:
+plugins: 
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
 
 # Front Matter Defaults
-defaults:
+defaults: 
   # Posts defaults
-  - scope:
+  - scope: 
       path: "_posts"
       type: posts
-    values:
+    values: 
       layout: post
       share: true
 
 # Site Author
-author:
+author: 
   name: Xiaorui Zhu
   picture: /docs/images/bio-photo.jpg
   email: zhuxiaorui1989@gmail.com
   twitter: dale_zhu
-  links:
+  links: 
     - title: Twitter
       url: https://twitter.com/dale_zhu
       icon: fab fa-twitter-square
