@@ -22,8 +22,8 @@ locale: en-US
 title: "Xiaorui (Jeremy) Zhu 朱浚铭"
 description: "Only the paranoid survive! Here are my research, interests and life."
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/site-logo.png" # path of site logo, e.g. "/images/logo.png"
+url: "https://xiaoruizhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: "/docs/favicon.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
 words_per_minute: 200 # 200
@@ -96,7 +96,7 @@ defaults:
 # Site Author
 author:
   name: Xiaorui (Jeremy) Zhu
-  picture: /images/bio-photo.jpg
+  picture: /docs/images/bio-photo.jpg
   email: zhuxiaorui1989@gmail.com
   twitter: dale_zhu
   links:
