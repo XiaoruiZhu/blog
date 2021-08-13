@@ -1,11 +1,11 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Xiaorui Zhu:
+Xiaorui Zhu: 
   name: Xiaorui Zhu
   picture: /docs/images/bio-photo-2.jpg
   twitter: "@jeremy_zhu89"
-  links:
+  links: 
     - title: Twitter
       url: "https://twitter.com/jeremy_zhu89"
       icon: fab fa-twitter-square
