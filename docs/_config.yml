@@ -21,8 +21,8 @@ locale: en-US
 title: "So Simple"
 description: "A simple Jekyll theme for words and pictures."
 baseurl: "/so-simple-theme"
-url: "https://mmistakes.github.io"
-logo: "/images/so-simple-site-logo.png"
+url: "https://xiaoruizhu.github.io"
+logo: "/favicon.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: # 200
