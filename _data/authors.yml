@@ -2,12 +2,12 @@
 
 jeremy_zhu:
   name: Jeremy Zhu
-  web: https://homepages.uc.edu/~zhuxr/
+  web: "https://homepages.uc.edu/~zhuxr/"
   email: zhuxiaorui1989@gmail.com
   bio: "Do whatever to be a expert in business analytics."
   avatar: bio-photo-2.jpg
   twitter: "@jeremy_zhu89"
   links:
     - title: Twitter
-      url: https://twitter.com/jeremy_zhu89
+      url: "https://twitter.com/jeremy_zhu89"
       icon: fab fa-twitter-square
