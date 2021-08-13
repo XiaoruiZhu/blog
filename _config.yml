@@ -15,38 +15,34 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site wide configuration
-
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
-title: Xiaorui (Jeremy) Zhu 朱浚铭
-locale: en_US
-description: Only the paranoid survive! Here are my research, interests and life.
-logo: site-logo.png
+locale: en-US
+title: "Xiaorui (Jeremy) Zhu 朱浚铭"
+description: "Only the paranoid survive! Here are my research, interests and life."
+baseurl: # the subpath of your site, e.g. "/blog"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: "/images/site-logo.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
 words_per_minute: 200 # 200
-search: true
-url: "https://xiaoruizhu.github.io" 
-# remote_theme: "mmistakes/so-simple-theme@3.2.0"
-
 mathjax:
   enable: true # MathJax equations, e.g. true, false (default)
-  # combo: "tex-svg" # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  # tags: "ams" # "none", "ams" (default), "all"
+  combo: "tex-svg" # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+  tags: "ams" # "none", "ams" (default), "all"
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-
+google_analytics: UA-54280540-1 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: "jeremyzhu" # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: "dale_zhu" # site's Twitter username, e.g. "mmistakes"
-  
-  
-# Jekyll configuration
+
+
 
 # Liquid
 liquid:
@@ -97,33 +93,30 @@ defaults:
       layout: post
       share: true
 
-# Site owner
-owner:
+# Site Author
+author:
   name: Xiaorui (Jeremy) Zhu
-  avatar: bio-photo.jpg
+  picture: /images/bio-photo.jpg
   email: zhuxiaorui1989@gmail.com
-  disqus-shortname: jeremyzhu
   twitter: dale_zhu
-  facebook: xiaor.zhu
-  github: xiaoruizhu
-  stackexchange: https://stackexchange.com/users/3539424/xiaorui-zhu
-  linkedin: jeremychu89
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: 1246701103
-  google:
-    plus: 118415573512961148625
-    analytics: UA-54280540-1
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+  links:
+    - title: Twitter
+      url: https://twitter.com/dale_zhu
+      icon: fab fa-twitter-square
+    - title: Facebook
+      url: https://facebook.com/xiaor.zhu
+      icon: fab fa-facebook
+    - title: GitHub
+      url: https://github.com/xiaoruizhu
+      icon: fab fa-github-square
+    - title: Stackexchange
+      url: https://stackexchange.com/users/3539424/xiaorui-zhu
+      icon: fab fa-stack-exchange
+    - title: Linkedin
+      url: https://www.linkedin.com/in/jeremychu89/
+      icon: fab fa-linkedin
 
-# Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
-
+# weibo: 1246701103
+# google:
+  # plus: 118415573512961148625
+  # analytics: UA-54280540-1

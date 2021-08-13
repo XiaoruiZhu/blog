@@ -1,4 +1,4 @@
-# Site navigation links
+# Sample site navigation bar links
 
 - title: About Me
   url: /about/
@@ -7,7 +7,7 @@
   url: /articles/
 
 - title: Blog
-  url: /blog/
+  url: /posts/
   
 - title: Gallery
   url: /gallery/
@@ -22,5 +22,4 @@
   url: /search/
 
 - title: Homepage
-  url: "https://homepages.uc.edu/~zhuxr/" 
-  
+  url: https://homepages.uc.edu/~zhuxr/index.html
