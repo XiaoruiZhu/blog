@@ -24,7 +24,8 @@
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "onchange": "^6.1.1",
-    "uglify-js": "^3.13.6"
+    "uglify-js": "^3.13.6",
+    "path-parse": ">=1.0.7"
   },
   "browserslist": [
     "last 2 versions",
