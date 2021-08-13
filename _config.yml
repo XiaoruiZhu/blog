@@ -28,13 +28,12 @@ read_time: true # reading time estimates, e.g. true
 words_per_minute: 200 # 200
 search: true
 url: "https://xiaoruizhu.github.io" 
-baseurl: "/blog" # the subpath of your site, e.g. "/blog"
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 
 mathjax:
   enable: true # MathJax equations, e.g. true, false (default)
-  combo: "tex-svg" # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  tags: "ams" # "none", "ams" (default), "all"
+  # combo: "tex-svg" # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+  # tags: "ams" # "none", "ams" (default), "all"
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -60,15 +59,15 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
 search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
