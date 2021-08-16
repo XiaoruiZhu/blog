@@ -1,7 +1,7 @@
 # Sample site navigation bar links
 
-- title: About Me
-  url: /about/
+- title: UC Homepage
+  url: "https://homepages.uc.edu/~zhuxr/index.html"
 
 - title: Blog
   url: /posts/
@@ -17,6 +17,3 @@
 
 - title: Search
   url: /search/
-
-- title: UC Homepage
-  url: "https://homepages.uc.edu/~zhuxr/index.html"

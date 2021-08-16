@@ -1,5 +1,5 @@
 ---
-title: Five-Step Rule of Implement Rigorously
+title: "Elon Musk: Five-Step Rule of Implement Rigorously"
 excerpt: "Five-step rule is: make requirements or constraints; delete part or process; simplify before optimize; accelerate cycle time; and finally automate."
 categories: blog
 tags: [哲学, philosophy]
@@ -8,7 +8,7 @@ share: true
 date: 2021-08-12 22:33:33
 ---
 
-I appreciate that Elon laboriously explained one of his great thinking processes that will benefit the researchers and engineers. It is from a tour of SpaceX's Starbase facility guided by Elon with Youtuber ["Everyday Astronaut"](https://www.youtube.com/watch?v=t705r8ICkRw). I made minor revises, but most of them came from Elon. 
+I appreciate that Elon laboriously explained one of his great thinking processes that will benefit the researchers and engineers. The summary of this five-step rule of implement rigorously is from a Youtube video when Elon guides a tour of SpaceX’s Starbase facility with Youtuber ["Everyday Astronaut"](https://www.youtube.com/watch?v=t705r8ICkRw). I made minor revises, but most of them came from Elon.
 
 ## Five-Step Rule of Implement Rigorously
 
