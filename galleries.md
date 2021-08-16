@@ -1,7 +1,7 @@
 ---
-title: Gallery
+title: Galleries
 layout: home
-permalink: /gallery/
+permalink: /galleries/
 show_excerpts: true
 entries_layout: list
 ---
