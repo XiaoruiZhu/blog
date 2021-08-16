@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site wide configuration
-theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
+# theme: jekyll-theme-so-simple
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Xiaorui (Jeremy) Zhu 朱浚铭"
