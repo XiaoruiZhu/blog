@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Five-Step Rule of Implement Rigorously
-excerpt: Five-step rule is: make requirements or constraints; delete part or process; simplify before optimize; accelerate cycle time; and finally automate.
+excerpt: "Five-step rule is: make requirements or constraints; delete part or process; simplify before optimize; accelerate cycle time; and finally automate."
 categories: blog
-tags: [哲学] [philosophy]
+tags: [哲学, philosophy]
 comments: true
 share: true
 date: 2021-08-12 22:33:33

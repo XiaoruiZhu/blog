@@ -4,7 +4,7 @@ title: Research
 excerpt: "This page is to display my research and publications."
 modified: 2016-04-15T23:10:38.564948-04:00
 image:
-  feature: so-simple-sample-image-2.jpg
+  feature: /docs/images/so-simple-sample-image-2.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---

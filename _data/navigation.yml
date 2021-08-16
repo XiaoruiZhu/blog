@@ -3,9 +3,6 @@
 - title: About Me
   url: /about/
 
-- title: Articles
-  url: /articles/
-
 - title: Blog
   url: /posts/
 
@@ -21,5 +18,5 @@
 - title: Search
   url: /search/
 
-- title: Homepage
+- title: UC Homepage
   url: "https://homepages.uc.edu/~zhuxr/index.html"
