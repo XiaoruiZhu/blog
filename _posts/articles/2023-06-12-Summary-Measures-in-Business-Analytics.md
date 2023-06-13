@@ -42,7 +42,6 @@ There a re few measures:
 1.  What you should do to gain understanding of the typical spending for these categories. Assessing the average spending for each of the product categories can help with this.
 
 Question: suppose you want to estimate the total spending of clothing for all your 100,000 customer during this holiday season, how to get a rough guess about the total amount of revenue?
-
 ``` r
 library(readxl)
 myData <- read_excel("jaggia_ba_2e_ch03_data.xlsx", 
@@ -70,34 +69,25 @@ Two key features:
 A few common measures of dispersion: 
 
 1. Range: The simplest measure that take the difference between the maximum and minimum. (Not good since it is sensitive to extreme values)
-
 ``` r
 range(myData$Clothing)
 diff(range(myData$Clothing))
 ```
-
 2. Interquartile Range (IQR): The difference between the third quantile (Q3) and the first quantile (Q1). It is less sensitive to extreme values compared to the range measure. It mainly measure the range of the middle 50% of the data. 
-
 ``` r
 IQR(myData$Clothing)
 ```
-
 3. Variance: The average of the squared deviations from the mean. It measures how far each value in the dataset is from the mean and provides an estimate of the average squared deviation.
-
 ``` r
 var(myData$Clothing)
 ```
-
 4. Standard Deviation: The square root of the variance. It measures the average distance between each data point and the mean and is widely used due to its intuitive interpretation and connection to the original units of the data.
-
 ``` r
 sd(myData$Clothing)
 # or 
 sqrt(var(myData$Clothing))
 ```
-
 5. Mean Absolute Deviation (MAD): The average of the absolute deviations from the mean. It provides a measure of the average absolute distance of each data point from the mean and is less sensitive to extreme values compared to the standard deviation.
-
 ``` r
 # Calculate the mean of the data
 mean_value <- mean(myData$Clothing)
@@ -113,11 +103,9 @@ print(mad_value)
 # or just
 mad_value
 ```
-
 > What if you ask [ChatGPT](https://chat.openai.com/): "how to calculate Mean Absolute Deviation in R?"
 
 6. Coefficient of Variation (CV): The ratio of the standard deviation to the mean, expressed as a percentage. It provides a relative measure of dispersion that allows for comparison of variability between datasets with different scales.
-
 ``` r
 # Calculate the standard deviation of the data
 sd_value <- sd(myData$Clothing)
@@ -137,7 +125,6 @@ Shape measures show whether the distribution of the variable is symmetric or if 
 Common measures of shape in statistics include:
 
 1. Skewness: Skewness measures the asymmetry of the data distribution. Positive skewness indicates a longer or fatter tail on the right side of the distribution, while negative skewness indicates a longer or fatter tail on the left side. A skewness value of 0 suggests a symmetric distribution.
-
 ``` r
 # Calculate the skewness of a variable
 install.packages("e1071")
