@@ -25,8 +25,15 @@ A few tasks:
 
 The central location reveals the middle or center of the data. It is a numerical value that attempts to describe the center of variable's distribution.
 
-There a re few measures: - mean: arithmetic mean is the primary one. - median: middle value of the sorted data. There is equal number of data points that lie above and below it.\
-- mode: the most frequently occurred observation. It is useful for a categorical variable. - percentile: A measure of relative position. For example, the $p$-th percentile divides a variable into two parts. Approximately $p$ percent of the observations are less than the $p$th percentile. Approximately (100 − $p$) percent of the observations are greater than the $p$th percentile
+There a re few measures: 
+
+- mean: arithmetic mean is the primary one. 
+
+- median: middle value of the sorted data. There is equal number of data points that lie above and below it.
+
+- mode: the most frequently occurred observation. It is useful for a categorical variable. 
+
+- percentile: A measure of relative position. For example, the $p$-th percentile divides a variable into two parts. Approximately $p$ percent of the observations are less than the $p$th percentile. Approximately (100 − $p$) percent of the observations are greater than the $p$th percentile
 
 > Try to ask [ChatGPT](https://chat.openai.com/): "What is the measure of location in statistics?"
 
@@ -138,7 +145,6 @@ library(e1071)
 
 skewness(myData$Clothing)
 ```
-
 2. Kurtosis: Kurtosis measures the heaviness of the tails of the data distribution. Positive kurtosis (leptokurtic) indicates heavy tails and a peaked central region, while negative kurtosis (platykurtic) indicates light tails and a relatively flat central region. A kurtosis value of 3 (excess kurtosis) is often used as a reference point for comparison with a normal distribution.
 
 3. Modality: Modality refers to the number of modes or peaks in a distribution. A distribution can be unimodal (one peak), bimodal (two peaks), multimodal (more than two peaks), or uniform (no clear peaks).
@@ -149,12 +155,10 @@ skewness(myData$Clothing)
 Linear relationship: whether two numeric variables have a linear relationship.
 
 1. Covariance: Covariance measures the joint variability between two variables. It indicates the extent to which changes in one variable are associated with changes in another variable. However, it doesn't provide a standardized measure of association like correlation does.
-
 ``` r
 # Covariance between spending on clothing and Health 
 cov(myData$Clothing, myData$Health)
 ```
-
 2. Correlation: Correlation measures the strength and direction of the linear relationship between two continuous variables. It ranges from -1 to 1, where -1 indicates a perfect negative linear relationship, 0 indicates no linear relationship, and 1 indicates a perfect positive linear relationship. Correlation is useful for understanding the degree to which two variables move together.
 
 ``` r
