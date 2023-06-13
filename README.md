@@ -1,6 +1,6 @@
 # Xiaorui(Jeremy) Zhu's Personal Site
 
-This is the personal site of Jeremy Zhu http://xiaoruizhu.github.io . This template is forked from mmistakes.github.io
+This is the personal site of Jeremy Zhu http://xiaorui.site/blog/ . This template is forked from mmistakes.github.io
 
 # [So Simple Jekyll Theme][1]
 
