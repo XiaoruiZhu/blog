@@ -2,10 +2,13 @@
 title: "Summary Measures in Business Analytics"
 excerpt: "Summary Measures in Business Analytics: location measures, measures of dispersion, shape, and association; boxplots and z scores."
 categories: articles
+modified: 2023-06-13 10:18:21
 tags: [Statistics, Business Analytics, R]
 comments: true
 share: true
 date: 2023-06-12 11:10:13
+editor_options: 
+  chunk_output_type: inline
 ---
 
 # Introductory Case: Marketing Analysis
@@ -15,7 +18,7 @@ Summary measures in Business Analytics are very important. They are the measures
 A few tasks:
 
 1.  What you should do to gain understanding of the typical spending for these categories.
-2.  How to gain dispersion of the spending for these categories.
+2.  How to obtain dispersion of the spending for these categories.
 3.  Should the manager target the male and female customer differently.
 
 ## Measures of Location
@@ -47,7 +50,7 @@ quantile(myData$Clothing, probs = 0.1)
 100000 * mean(myData$Clothing)
 ```
 
-> If you don't fully understand how to use quantile() function, try to ask ChatGPT: "how to use quantile() function in R?"
+> If you don't fully understand how to use quantile() function, try to ask [ChatGPT](https://chat.openai.com/): "how to use quantile() function in R?"
 
 ## Measures of Dispersion
 
@@ -104,7 +107,7 @@ print(mad_value)
 mad_value
 ```
 
-> What if you ask ChatGPT: "how to calculate Mean Absolute Deviation in R?"
+> What if you ask [ChatGPT](https://chat.openai.com/): "how to calculate Mean Absolute Deviation in R?"
 
 6. Coefficient of Variation (CV): The ratio of the standard deviation to the mean, expressed as a percentage. It provides a relative measure of dispersion that allows for comparison of variability between datasets with different scales.
 
@@ -159,4 +162,17 @@ cov(myData$Clothing, myData$Health)
 cor(myData$Clothing, myData$Health)
 ```
 
-> Try to ask ChatGPT: "What is the measure of Association in business analytics?"
+> Try to ask [ChatGPT](https://chat.openai.com/): "What is the measure of Association in business analytics?"
+
+## Measures of Shape
+
+Question: Should the manager target the male and female customer differently.
+
+``` r
+# find average spending by gender
+aggregate(x = myData$Clothing, by = list(myData$Sex), FUN=mean)
+tapply(X = myData$Clothing, INDEX = myData$Sex, FUN = mean) 
+tapply(X = myData$Health, INDEX = myData$Sex, FUN = mean) 
+tapply(X = myData$Tech, INDEX = myData$Sex, FUN = mean) 
+tapply(X = myData$Misc, INDEX = myData$Sex, FUN = mean) 
+```
