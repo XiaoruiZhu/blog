@@ -8,7 +8,8 @@ image:
 feature:
 date: 2016-04-18 Mon 22:27
 comments: true
-share: ture
+share: true
+hidden: true
 ---
 
 ##  Sample Selection Definition
