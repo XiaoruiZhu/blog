@@ -22,7 +22,7 @@ locale: en-US
 title: "Xiaorui (Jeremy) Zhu 朱浚铭"
 description: "Only the paranoid survive! Here are my research, interests and life."
 baseurl:  
-url: "https://xiaoruizhu.github.io" 
+url: "https://xiaorui.site/blog/" 
 logo: "/docs/favicon.png" 
 date_format: "%B %-d, %Y"
 read_time: true 
